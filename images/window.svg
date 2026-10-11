@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="三日月が見える窓際のテーブル席のイラスト">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141b2d"/>
+      <stop offset="1" stop-color="#2c3a5e"/>
+    </linearGradient>
+    <mask id="crescent">
+      <rect width="600" height="400" fill="#fff"/>
+      <circle cx="392" cy="92" r="30" fill="#000"/>
+    </mask>
+    <radialGradient id="lamp">
+      <stop offset="0" stop-color="#ffe7a3" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffe7a3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="#3a2d25"/>
+  <rect y="330" width="600" height="70" fill="#231a15"/>
+
+  <!-- 窓 -->
+  <rect x="150" y="36" width="300" height="214" rx="4" fill="#5c3c28"/>
+  <rect x="162" y="48" width="276" height="190" fill="url(#sky)"/>
+  <!-- 月と星 -->
+  <circle cx="380" cy="100" r="34" fill="#e9c46a" mask="url(#crescent)"/>
+  <g fill="#f6f1e7">
+    <circle cx="200" cy="80" r="1.6"/>
+    <circle cx="236" cy="120" r="1.2"/>
+    <circle cx="270" cy="70" r="1.8"/>
+    <circle cx="310" cy="110" r="1.2"/>
+    <circle cx="330" cy="64" r="1.4"/>
+    <circle cx="418" cy="150" r="1.4"/>
+    <circle cx="190" cy="150" r="1.2"/>
+    <circle cx="286" cy="150" r="1.5"/>
+  </g>
+  <!-- 街並み -->
+  <g fill="#0e1422">
+    <rect x="162" y="196" width="46" height="42"/>
+    <rect x="208" y="176" width="34" height="62"/>
+    <rect x="242" y="204" width="52" height="34"/>
+    <rect x="294" y="186" width="40" height="52"/>
+    <rect x="334" y="208" width="48" height="30"/>
+    <rect x="382" y="190" width="56" height="48"/>
+  </g>
+  <g fill="#e9c46a" opacity=".8">
+    <rect x="172" y="206" width="6" height="6"/>
+    <rect x="218" y="188" width="6" height="6"/>
+    <rect x="228" y="208" width="6" height="6"/>
+    <rect x="304" y="198" width="6" height="6"/>
+    <rect x="318" y="216" width="6" height="6"/>
+    <rect x="394" y="202" width="6" height="6"/>
+    <rect x="416" y="218" width="6" height="6"/>
+  </g>
+  <!-- 窓枠の桟 -->
+  <g fill="#5c3c28">
+    <rect x="296" y="48" width="8" height="190"/>
+    <rect x="162" y="139" width="276" height="8"/>
+  </g>
+  <rect x="138" y="250" width="324" height="12" rx="2" fill="#7a4f33"/>
+
+  <!-- 壁のランプ -->
+  <circle cx="78" cy="120" r="80" fill="url(#lamp)"/>
+  <rect x="74" y="60" width="8" height="40" fill="#15100d"/>
+  <path d="M60 100h36l-8 26h-20z" fill="#e9c46a"/>
+
+  <!-- 額縁 -->
+  <rect x="492" y="80" width="64" height="80" fill="#7a4f33"/>
+  <rect x="500" y="88" width="48" height="64" fill="#ece4d4"/>
+  <path d="M510 134q14-34 28 0z" fill="#8c3b2e"/>
+  <circle cx="524" cy="108" r="6" fill="#e9c46a"/>
+
+  <!-- テーブル -->
+  <ellipse cx="300" cy="300" rx="96" ry="12" fill="#a8704a"/>
+  <rect x="294" y="306" width="12" height="64" fill="#15100d"/>
+  <ellipse cx="300" cy="374" rx="40" ry="6" fill="#15100d"/>
+
+  <!-- カップ -->
+  <ellipse cx="270" cy="296" rx="22" ry="4" fill="#e6dcc8"/>
+  <path d="M257 280h26v9a8 8 0 0 1-8 8h-10a8 8 0 0 1-8-8z" fill="#f6f1e7"/>
+  <path d="M283 283h5a4 4 0 0 1 0 8h-5" fill="none" stroke="#f6f1e7" stroke-width="3"/>
+  <g fill="none" stroke="#f6f1e7" stroke-width="2" stroke-linecap="round" opacity=".5">
+    <path d="M265 272q-5-8 0-14"/>
+    <path d="M275 272q5-8 0-16"/>
+  </g>
+  <!-- 開いた本 -->
+  <path d="M312 294l24-6 24 6v4l-24-5-24 5z" fill="#f6f1e7"/>
+  <path d="M336 288v5" stroke="#b9ad98" stroke-width="1.5"/>
+
+  <!-- 椅子（左右） -->
+  <g>
+    <rect x="128" y="250" width="10" height="126" rx="3" fill="#5c3c28"/>
+    <rect x="128" y="250" width="14" height="60" rx="5" fill="#8c3b2e"/>
+    <rect x="128" y="312" width="62" height="12" rx="4" fill="#8c3b2e"/>
+    <rect x="180" y="322" width="8" height="54" rx="3" fill="#5c3c28"/>
+  </g>
+  <g>
+    <rect x="462" y="250" width="10" height="126" rx="3" fill="#5c3c28"/>
+    <rect x="458" y="250" width="14" height="60" rx="5" fill="#8c3b2e"/>
+    <rect x="410" y="312" width="62" height="12" rx="4" fill="#8c3b2e"/>
+    <rect x="412" y="322" width="8" height="54" rx="3" fill="#5c3c28"/>
+  </g>
+</svg>

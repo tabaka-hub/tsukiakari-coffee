@@ -178,6 +178,36 @@ a { color: inherit; }
   color: var(--ink-soft);
 }
 
+/* 店内の様子 */
+.section-dark {
+  background: var(--night);
+  color: var(--paper);
+}
+
+.section-dark .eyebrow { color: var(--moon); }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery figure { margin: 0; }
+
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.gallery figcaption {
+  margin-top: 10px;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
 /* メニュー */
 .menu-grid {
   display: grid;
@@ -276,5 +306,6 @@ a { color: inherit; }
   .section { padding: 64px 20px; }
   .about-grid,
   .menu-grid { grid-template-columns: 1fr; gap: 36px; }
+  .gallery { grid-template-columns: 1fr; gap: 28px; }
   .site-header nav { gap: 14px; font-size: 0.82rem; }
 }
