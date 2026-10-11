@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>月灯珈琲店 | 夜更かしのための自家焙煎コーヒー</title>
+  <meta name="description" content="月灯珈琲店（つきあかりこーひーてん）は、夜遅くまで開いている自家焙煎の小さな喫茶店です。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌙</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">月灯珈琲店</a>
+    <nav>
+      <a href="#about">お店のこと</a>
+      <a href="#menu">メニュー</a>
+      <a href="#access">アクセス</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <svg class="moon" viewBox="0 0 200 200" aria-hidden="true">
+        <defs>
+          <mask id="crescent">
+            <rect width="200" height="200" fill="#fff"/>
+            <circle cx="125" cy="85" r="78" fill="#000"/>
+          </mask>
+        </defs>
+        <circle cx="100" cy="100" r="90" fill="currentColor" mask="url(#crescent)"/>
+      </svg>
+      <p class="hero-sub">TSUKIAKARI COFFEE — since 2014</p>
+      <h1>夜がすこし、<br>長くなる一杯を。</h1>
+      <p class="hero-lead">月灯珈琲店は、深夜一時まで灯りをともす<br class="pc">自家焙煎の小さな喫茶店です。</p>
+      <a class="button" href="#menu">メニューを見る</a>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">About</p>
+      <h2>お店のこと</h2>
+      <div class="about-grid">
+        <p>
+          路地裏の古い文具店を改装して、2014年の秋に店を開きました。
+          豆は毎朝、店の奥にある小さな焙煎機で少しずつ焼いています。
+          カウンター八席とテーブル三つ。本を読む人、手紙を書く人、
+          ただぼんやりする人、どなたも歓迎です。
+        </p>
+        <ul class="facts">
+          <li><span>焙煎</span>毎朝・店内にて</li>
+          <li><span>席数</span>18席（全席禁煙）</li>
+          <li><span>設備</span>電源・Wi‑Fiあり</li>
+          <li><span>お支払い</span>現金・各種キャッシュレス</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="menu" class="section section-alt">
+      <p class="eyebrow">Menu</p>
+      <h2>メニュー</h2>
+      <div class="menu-grid">
+        <div class="menu-col">
+          <h3>珈琲</h3>
+          <dl>
+            <div><dt>月灯ブレンド<small>深煎り・ほろ苦くて甘い余韻</small></dt><dd>¥580</dd></div>
+            <div><dt>朝焼けブレンド<small>浅煎り・柑橘のような明るさ</small></dt><dd>¥580</dd></div>
+            <div><dt>水出しアイス珈琲<small>八時間かけてゆっくり抽出</small></dt><dd>¥620</dd></div>
+            <div><dt>カフェオレ<small>ホット／アイス</small></dt><dd>¥650</dd></div>
+          </dl>
+        </div>
+        <div class="menu-col">
+          <h3>甘いもの・軽食</h3>
+          <dl>
+            <div><dt>固めの自家製プリン<small>ほろ苦カラメル</small></dt><dd>¥520</dd></div>
+            <div><dt>バスクチーズケーキ<small>ブレンドとよく合います</small></dt><dd>¥560</dd></div>
+            <div><dt>厚切りバタートースト<small>あんこ追加 +¥100</small></dt><dd>¥480</dd></div>
+            <div><dt>夜のナポリタン<small>21時からの限定</small></dt><dd>¥980</dd></div>
+          </dl>
+        </div>
+      </div>
+      <p class="note">※ 価格はすべて税込みです。豆の量り売り（100g ¥850〜）もしています。</p>
+    </section>
+
+    <section id="access" class="section">
+      <p class="eyebrow">Access</p>
+      <h2>アクセス</h2>
+      <div class="access-grid">
+        <table>
+          <tr><th>住所</th><td>〒000-0000 東京都月見区灯町 3‑14‑7</td></tr>
+          <tr><th>最寄り</th><td>月見坂駅 北口より徒歩4分</td></tr>
+          <tr><th>営業時間</th><td>13:00 – 25:00（ラストオーダー 24:30）</td></tr>
+          <tr><th>定休日</th><td>水曜日・第2火曜日</td></tr>
+          <tr><th>電話</th><td>03‑0000‑0000</td></tr>
+        </table>
+        <p class="status" id="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 月灯珈琲店</p>
+    <p class="disclaimer">このサイトは GitHub Pages の公開テスト用に作った架空の店舗サイトです。</p>
+  </footer>
+
+  <script>
+    // 営業中かどうかを表示（13:00〜翌1:00、水曜定休）
+    (function () {
+      var now = new Date();
+      var h = now.getHours();
+      // 0時台は前日の営業扱い
+      var day = h < 1 ? (now.getDay() + 6) % 7 : now.getDay();
+      var open = day !== 3 && (h >= 13 || h < 1);
+      var el = document.getElementById('status');
+      el.textContent = open ? '● ただいま営業中です' : '○ ただいま準備中です';
+      el.classList.add(open ? 'is-open' : 'is-closed');
+    })();
+  </script>
+</body>
+</html>
